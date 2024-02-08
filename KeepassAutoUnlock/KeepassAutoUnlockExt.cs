@@ -18,10 +18,7 @@ namespace KeePassAutoUnlock
 
         public override string UpdateUrl
         {
-            get
-            {
-                return "https://raw.githubusercontent.com/SearV6/KeePassAutoUnlock/master/versionInfo.txt";
-            }
+            get{return "https://raw.githubusercontent.com/SearV6/KeePassAutoUnlock/master/versionInfo.txt";}
         }
 
         public override bool Initialize(IPluginHost host)
