@@ -15,10 +15,13 @@ namespace KeePassAutoUnlock
     {
         private IPluginHost _host;
         private PluginConfig _customConfig;
-
+       
+        /// <summary>
+        /// Returns the URL where KeePass can check for updates of this plugin
+        /// </summary>
         public override string UpdateUrl
         {
-            get{return "https://raw.githubusercontent.com/SearV6/KeePassAutoUnlock/master/versionInfo.txt";}
+            get { return "https://raw.githubusercontent.com/SearV6/KeePassAutoUnlock/master/versionInfo.txt"; }
         }
 
         public override bool Initialize(IPluginHost host)
