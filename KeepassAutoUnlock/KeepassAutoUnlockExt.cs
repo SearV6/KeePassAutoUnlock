@@ -20,7 +20,7 @@ namespace KeePassAutoUnlock
         {
             get
             {
-                return "https://raw.githubusercontent.com/jeremy-bourgin/KeePassAutoUnlock/master/versionInfo.txt";
+                return "https://raw.githubusercontent.com/SearV6/KeePassAutoUnlock/master/versionInfo.txt";
             }
         }
 
