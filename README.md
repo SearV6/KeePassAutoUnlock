@@ -1,3 +1,5 @@
+Copie conforme du plugin d'origine mais avec le souci de detection de version règlé
+
 # Description
 When starting KeePass, this plugin automatically opens a specific database using its master password.
 
